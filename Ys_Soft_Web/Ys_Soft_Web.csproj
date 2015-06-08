@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F82F6C5-507D-4957-A4E8-554C395340E0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ys_Soft_Web</RootNamespace>
+    <AssemblyName>Ys_Soft_Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="black.html" />
+    <Content Include="content.html" />
+    <Content Include="css\flexslider-v1.8.css" />
+    <Content Include="css\main-r6.css" />
+    <Content Include="css\media-queries-r6.css" />
+    <Content Include="css\skeleton-v1.1.css" />
+    <Content Include="css\sprites-r6.css" />
+    <Content Include="css\theme-default-r6.css" />
+    <Content Include="images\apple-touch-icon-114x114.png" />
+    <Content Include="images\apple-touch-icon-72x72.png" />
+    <Content Include="images\apple-touch-icon.png" />
+    <Content Include="images\bg_control_nav.png" />
+    <Content Include="images\bg_direction_nav.png" />
+    <Content Include="images\black_paper.jpg" />
+    <Content Include="images\combined.png" />
+    <Content Include="images\combined_gradient.png" />
+    <Content Include="images\empty.gif" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\gradient.png" />
+    <Content Include="images\icons\black\3x3_grid_icon48.png" />
+    <Content Include="images\icons\black\arrow_two_head_2_icon48.png" />
+    <Content Include="images\icons\black\bookmark_2_icon48.png" />
+    <Content Include="images\icons\black\box_icon48.png" />
+    <Content Include="images\icons\black\browser_icon48.png" />
+    <Content Include="images\icons\black\burst_icon48.png" />
+    <Content Include="images\icons\black\cert_icon48.png" />
+    <Content Include="images\icons\black\cloud_icon48.png" />
+    <Content Include="images\icons\black\dashboard_icon48.png" />
+    <Content Include="images\icons\black\facebook_icon32.png" />
+    <Content Include="images\icons\black\font_size_icon48.png" />
+    <Content Include="images\icons\black\globe_3_icon48.png" />
+    <Content Include="images\icons\black\indent_increase_icon48.png" />
+    <Content Include="images\icons\black\layers_2_icon48.png" />
+    <Content Include="images\icons\black\link_icon48.png" />
+    <Content Include="images\icons\black\pin_map_right_icon&amp;48.png" />
+    <Content Include="images\icons\black\push_pin_icon48.png" />
+    <Content Include="images\icons\black\quote-mark-icon-black.png" />
+    <Content Include="images\icons\black\shop_cart_icon48.png" />
+    <Content Include="images\icons\black\twitter_icon32.png" />
+    <Content Include="images\icons\white\3x3_grid_icon48.png" />
+    <Content Include="images\icons\white\arrow_two_head_2_icon48.png" />
+    <Content Include="images\icons\white\bookmark_2_icon48.png" />
+    <Content Include="images\icons\white\burst_icon48.png" />
+    <Content Include="images\icons\white\cert_icon48.png" />
+    <Content Include="images\icons\white\cloud_icon48.png" />
+    <Content Include="images\icons\white\dashboard_icon48.png" />
+    <Content Include="images\icons\white\facebook_icon32.png" />
+    <Content Include="images\icons\white\font_size_icon48.png" />
+    <Content Include="images\icons\white\globe_3_icon48.png" />
+    <Content Include="images\icons\white\indent_increase_icon48.png" />
+    <Content Include="images\icons\white\layers_2_icon48.png" />
+    <Content Include="images\icons\white\link_icon48.png" />
+    <Content Include="images\icons\white\push_pin_icon48.png" />
+    <Content Include="images\icons\white\rss_sq_icon32.png" />
+    <Content Include="images\icons\white\shop_cart_icon48.png" />
+    <Content Include="images\icons\white\twitter_icon32.png" />
+    <Content Include="images\icons\white\youtube_icon32.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\logo-mobile-white.png" />
+    <Content Include="images\logo-mobile.png" />
+    <Content Include="images\logo-white.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\map.jpg" />
+    <Content Include="images\modern.jpg" />
+    <Content Include="images\motifs\carbon_fibre.png" />
+    <Content Include="images\motifs\cubes.png" />
+    <Content Include="images\motifs\grangray.png" />
+    <Content Include="images\motifs\project_papper.png" />
+    <Content Include="images\motifs\random_grey_variations.png" />
+    <Content Include="images\slides\crossbrowser.jpg" />
+    <Content Include="images\slides\html5.jpg" />
+    <Content Include="images\slides\performance.jpg" />
+    <Content Include="images\techlogos.jpg" />
+    <Content Include="images\work1.jpg" />
+    <Content Include="images\work2.jpg" />
+    <Content Include="images\work3.jpg" />
+    <Content Include="images\work4.jpg" />
+    <Content Include="images\work5.jpg" />
+    <Content Include="images\work6.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\jquery-1.7.1.min.js" />
+    <Content Include="js\jquery.ba-hashchange-v1.3.min.js" />
+    <Content Include="js\jquery.flexslider-v1.8.min.js" />
+    <Content Include="js\main-r6.js" />
+    <Content Include="mail.aspx" />
+    <Content Include="robots.txt" />
+    <Content Include="white.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="mail.aspx.cs">
+      <DependentUpon>mail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mail.aspx.designer.cs">
+      <DependentUpon>mail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".htaccess" />
+    <None Include="ajax.php" />
+    <None Include="php.ini" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62874</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
